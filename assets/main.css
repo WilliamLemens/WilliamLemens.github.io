@@ -1,0 +1,18 @@
+body {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	background-image: url("hermitCrab.jpg");
+	background-size: cover;
+}
+#name {
+	font-size: 5rem;
+	color: white;
+}body {
+	background-image: url("hermitCrab.jpg");
+}
+#name {
+	font-size: 5rem;
+	color: white;
+}
