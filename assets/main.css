@@ -53,3 +53,29 @@ div {
 	font-weight: 100;
 	text-shadow: 1px 1px #000000;
 }
+
+/* link icons */
+.linkicons {
+	display: flex;
+	align-items: center; /* align vertical */
+	list-style: none;
+	height: 4em;
+}
+.fa {
+	color: white;
+	text-shadow: 1px 1px #000000;
+
+	margin-right: 20px;
+
+    /* transition */
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+}
+
+.fa:hover {
+	transform: scale(1.25);
+	transition: transform 0.1s;
+	text-shadow: 1px 1px 10px #000000;
+}
