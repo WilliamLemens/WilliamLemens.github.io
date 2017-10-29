@@ -79,3 +79,18 @@ div {
 	transition: transform 0.1s;
 	text-shadow: 1px 1px 10px #000000;
 }
+
+/* copyright */
+#copyright {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+	color: #ffffff;
+	font-size: 12px;
+
+	margin: 5px;
+	padding: 0px;
+
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
