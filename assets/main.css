@@ -57,6 +57,9 @@ div {
 	height: 50%;
 	align-items: center; /* align vertical */
 }
+.container {
+	margin-left: 1px;
+}
 
 /* link icons */
 .linkicons {
@@ -106,7 +109,7 @@ div {
 	bottom: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	#rundown {
 		text-align: center;
 	}
