@@ -13,10 +13,9 @@ body {
 	min-height: 100vh;
 }
 
-div {
-	margin: 0;
-	margin-top: 0;
-	padding: 0;
+p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.25em;
 }
 
 /* Useful classes */
@@ -28,6 +27,9 @@ div {
 .vertical-center {
 	display: flex;
 	align-items: center;
+}
+.img-circle {
+    border-radius: 50%;
 }
 
 /* Splash screen */
@@ -67,10 +69,6 @@ div {
 	padding: 0rem 1rem 0rem 1rem;
 }
 
-.container {
-	margin-left: 1px;
-}
-
 /* link icons */
 .linkicons {
 	text-align: left;
@@ -102,21 +100,24 @@ div {
 	text-shadow: 1px 1px 10px #000000;
 }
 
+/* ABOUT */
+#about {
+	padding: 60px 20px 60px 20px;
+	background-color: #dee5e5;
+}
+
 /* copyright */
 #copyright {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 100;
 	color: #ffffff;
 	font-size: 12px;
+	text-align: center;
 
-	margin: 5px;
+	background-color: #444a4a;
+
+	margin: 0px;
 	padding: 0px;
-
-	text-shadow: 0 0 1px black;
-
-	position: fixed;
-	left: 0;
-	bottom: 0;
 }
 
 @media (max-width: 908px) {
