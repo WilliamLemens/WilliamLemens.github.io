@@ -21,7 +21,7 @@ div {
 }
 
 /* Splash screen */
-.splash {
+#splash {
 	min-height: 100vh;
 
 	display: flex;
@@ -39,34 +39,48 @@ div {
 }
 
 #name {
-	padding: 3rem;
+	padding: 1rem;
+
 	border-right: solid 2px #ffffff;
 
-	font-size: 86px;
+	font-size: 5rem;
 	font-family: "Josefin Slab", serif;
 	text-shadow: 2px 2px #000000;
 }
 
 #rundown {
 	font-family: "Open Sans", sans-serif;
-	padding: 10px;
-	text-align: left;
 	font-weight: 100;
+	font-size: 1.5rem;
+	text-align: left;
 	text-shadow: 1px 1px #000000;
+
+	height: 50%;
+	align-items: center; /* align vertical */
+}
+.container {
+	margin-left: 1px;
 }
 
 /* link icons */
 .linkicons {
-	display: flex;
 	align-items: center; /* align vertical */
-	list-style: none;
-	height: 4em;
+
+	text-align: left;
+	font-size: .75rem;
+
+	height: 25%;
+	padding: 0;
+	margin: 0;
 }
+
 .fa {
 	color: white;
 	text-shadow: 1px 1px #000000;
 
-	margin-right: 20px;
+	text-align: center;
+
+	margin: 10px;
 
     /* transition */
     -webkit-transition: 0.5s all ease;
@@ -94,4 +108,17 @@ div {
 	position: fixed;
 	left: 0;
 	bottom: 0;
+}
+
+@media (max-width: 767px) {
+	#rundown {
+		text-align: center;
+	}
+	#name {
+		border-right: none;
+		border-bottom: solid 2px #ffffff;
+	}
+	.linkicons {
+		text-align: center;
+	}
 }
