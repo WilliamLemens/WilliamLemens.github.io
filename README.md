@@ -1,3 +1,3 @@
 # WilliamLemens.github.io
 My personal website   
-Check it out here: http://williamlemens.com/
+Check it out here: https://williamlemens.com/
