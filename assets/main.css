@@ -28,7 +28,7 @@ p {
 	display: flex;
 	align-items: center;
 }
-.img-circle {
+.img-fluid {
     border-radius: 50%;
 }
 
